@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07359" orderdate="2022-01-31">
+  <shipto>
+    <orderid>ID07359</orderid>
+    <address>Beacon Hill Friends House, 6 Chestnut Street, Boston, MA 02108, USA</address>
+    <city>Boston</city>
+    <region>MA 02108</region>
+  </shipto>
+  <item>
+    <productCategory>Cookies</productCategory>
+    <productName>Chocolate Chip</productName>
+    <quantity>31</quantity>
+    <price>1.87</price>
+    <total>57.97</total>
+  </item>
+</shiporder>

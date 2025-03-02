@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToXmlBlazorApp", "ExcelToXmlBlazorApp\ExcelToXmlBlazorApp.csproj", "{5A0B27B3-3582-46E4-B14E-EA1E2BC0FBFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A0B27B3-3582-46E4-B14E-EA1E2BC0FBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B27B3-3582-46E4-B14E-EA1E2BC0FBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B27B3-3582-46E4-B14E-EA1E2BC0FBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0B27B3-3582-46E4-B14E-EA1E2BC0FBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B70DDBE-5850-40CC-892C-D883B6900FD5}
+	EndGlobalSection
+EndGlobal

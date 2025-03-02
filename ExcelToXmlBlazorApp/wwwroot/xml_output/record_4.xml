@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07359" orderdate="2022-01-31">
+  <shipto>
+    <orderid>ID07359</orderid>
+    <address>Gramercy Green 310 3rd Ave, New York, NY 10010, USA</address>
+    <city>New York</city>
+    <region>NY 10010</region>
+  </shipto>
+  <item>
+    <productCategory>Bars</productCategory>
+    <productName>Carrot</productName>
+    <quantity>100</quantity>
+    <price>1.77</price>
+    <total>177.00</total>
+  </item>
+</shiporder>

@@ -1,0 +1,55 @@
+﻿@page "/excel-to-xml"
+@inject Microsoft.JSInterop.IJSRuntime JS
+
+<h3>Excel to XML Converter by Kamesh Patil</h3>
+
+<InputFile OnChange="OnFileSelected" />
+<button @onclick="GenerateXml">Generate XML</button>
+
+<p>@statusMessage</p>
+
+@if (shipOrders != null && shipOrders.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Order Date</th>
+                <th>City</th>
+                <th>Region</th>
+                <th>Product Category</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < shipOrders.Count; i++)
+            {
+                var order = shipOrders[i];
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                    <td>@order.City</td>
+                    <td>@order.Region</td>
+                    <td>@order.ProductCategory</td>
+                    <td>@order.ProductName</td>
+                    <td>@order.Quantity</td>
+                    <td>@order.Price</td>
+                    <td>@order.Total</td>
+                    <td>
+                        <a href="@generatedXmlFiles[i]" download>
+                            <button>Download</button>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No data available.</p>
+}

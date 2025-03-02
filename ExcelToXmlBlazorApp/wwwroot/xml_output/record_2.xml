@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07351" orderdate="2022-01-01">
+  <shipto>
+    <orderid>ID07351</orderid>
+    <address>820 N Western AVE, Los Angeles, CA 90029, USA</address>
+    <city>Los Angeles</city>
+    <region>CA 90029</region>
+  </shipto>
+  <item>
+    <productCategory>Crackers</productCategory>
+    <productName>Whole Wheat</productName>
+    <quantity>87</quantity>
+    <price>3.49</price>
+    <total>303.63</total>
+  </item>
+</shiporder>

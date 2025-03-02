@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07351" orderdate="2022-01-01">
+  <shipto>
+    <orderid>ID07351</orderid>
+    <address>University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA</address>
+    <city>San Diego</city>
+    <region>CA 92093</region>
+  </shipto>
+  <item>
+    <productCategory>Bars</productCategory>
+    <productName>Carrot</productName>
+    <quantity>1233</quantity>
+    <price>1.77</price>
+    <total>2182.41</total>
+  </item>
+</shiporder>

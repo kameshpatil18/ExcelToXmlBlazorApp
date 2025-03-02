@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07359" orderdate="2022-01-31">
+  <shipto>
+    <orderid>ID07359</orderid>
+    <address>Torch Club 18 Waverly Pl, New York, NY 10003, USA</address>
+    <city>New York</city>
+    <region>NY 10003</region>
+  </shipto>
+  <item>
+    <productCategory>Snacks</productCategory>
+    <productName>Potato Chips</productName>
+    <quantity>28</quantity>
+    <price>1.35</price>
+    <total>37.80</total>
+  </item>
+</shiporder>

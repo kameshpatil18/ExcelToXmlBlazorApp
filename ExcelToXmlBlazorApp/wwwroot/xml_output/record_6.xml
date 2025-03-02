@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07359" orderdate="2022-01-31">
+  <shipto>
+    <orderid>ID07359</orderid>
+    <address>16 Beacon Street, Boston,  MA 02108, USA</address>
+    <city>Boston</city>
+    <region>MA 02108</region>
+  </shipto>
+  <item>
+    <productCategory>Cookies</productCategory>
+    <productName>Arrowroot</productName>
+    <quantity>36</quantity>
+    <price>2.18</price>
+    <total>78.48</total>
+  </item>
+</shiporder>

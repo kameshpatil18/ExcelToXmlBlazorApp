@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="ID07351" orderdate="2022-01-01">
+  <shipto>
+    <orderid>ID07351</orderid>
+    <address>9350 Maie AVE APT 301, Los Angeles, CA 90002, USA</address>
+    <city>Los Angeles</city>
+    <region>CA 90002</region>
+  </shipto>
+  <item>
+    <productCategory>Cookies</productCategory>
+    <productName>Chocolate Chip</productName>
+    <quantity>58</quantity>
+    <price>1.87</price>
+    <total>108.46</total>
+  </item>
+</shiporder>
